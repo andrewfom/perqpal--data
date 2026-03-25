@@ -1,8 +1,8 @@
 
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minAppVersion": "1.0.0",
-  "lastUpdated": "2026-03-23",
+  "lastUpdated": "2026-03-24",
   "cards": [
     {
       "id": "amex-platinum",
@@ -226,7 +226,7 @@
           "category": "Entertainment",
           "amount": 25,
           "resetPeriod": "Monthly",
-          "description": "Monthly statement credits for eligible digital entertainment purchases including Disney+, ESPN+, Hulu, Paramount+, Peacock, The New York Times, The Wall Street Journal, YouTube Premium, and YouTube TV. Enrollment required"
+          "description": "Monthly statement credits for eligible digital entertainment purchases including ESPN+, Disney+, Hulu, Paramount+, Peacock, The New York Times, The Wall Street Journal, YouTube Premium, and YouTube TV. Enrollment required"
         },
         {
           "id": "amex-platinum-airline",
