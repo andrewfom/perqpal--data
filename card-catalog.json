@@ -1,8 +1,8 @@
 
 {
-  "version": "1.0.3",
+  "version": "1.0.6",
   "minAppVersion": "1.0.0",
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-07-01",
   "cards": [
     {
       "id": "amex-platinum",
@@ -11,6 +11,19 @@
       "issuer": "American Express",
       "color": "#C0C0C0",
       "annualFee": 895,
+      "annualFeeSchedule": [
+        {
+          "amount": 695,
+          "appliesToAccountsOpenedBefore": "2025-09-18",
+          "validUntilRenewalOnOrAfter": "2026-01-02",
+          "note": "Existing cardmembers move to the $895 fee at renewal on or after January 2, 2026"
+        },
+        {
+          "amount": 895,
+          "effectiveForNewAccountsFrom": "2025-09-18",
+          "effectiveForRenewalsFrom": "2026-01-02"
+        }
+      ],
       "link": "https://americanexpress.com/en-us/referral/platinum-card?ref=LENAF6w81&xl=cp19"
     },
     {
@@ -20,6 +33,19 @@
       "issuer": "American Express",
       "color": "#C0C0C0",
       "annualFee": 895,
+      "annualFeeSchedule": [
+        {
+          "amount": 695,
+          "appliesToAccountsOpenedBefore": "2025-09-18",
+          "validUntilRenewalOnOrAfter": "2025-12-02",
+          "note": "Existing cardmembers move to the $895 fee at renewal on or after December 2, 2025"
+        },
+        {
+          "amount": 895,
+          "effectiveForNewAccountsFrom": "2025-09-18",
+          "effectiveForRenewalsFrom": "2025-12-02"
+        }
+      ],
       "link": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
     },
     {
@@ -29,7 +55,7 @@
       "issuer": "American Express",
       "color": "#DAC876",
       "annualFee": 325,
-      "link": "https://americanexpress.com/en-us/referral/gold-card?ref=YELENFY5n9&xl=cp19"
+      "link": "https://americanexpress.com/en-us/referral/gold-card?ref=YELENFzOv9&xl=cp15"
     },
     {
       "id": "amex-gold-business",
@@ -47,7 +73,7 @@
       "issuer": "Capital One",
       "color": "#124062",
       "annualFee": 395,
-      "link": "https://i.capitalone.com/J99D82gkb"
+      "link": "https://i.capitalone.com/JcfV5RlaZ"
     },
     {
       "id": "capital-one-venture-x-business",
@@ -83,7 +109,20 @@
       "issuer": "Chase",
       "color": "#0E1C37",
       "annualFee": 795,
-      "link": "https://www.referyourchasecard.com/19u/QRWLR7LZDU#reserve"
+      "annualFeeSchedule": [
+        {
+          "amount": 550,
+          "appliesToAccountsOpenedBefore": "2025-06-23",
+          "validUntilRenewalOnOrAfter": "2025-10-26",
+          "note": "Existing cardmembers move to the $795 fee at renewal after October 26, 2025"
+        },
+        {
+          "amount": 795,
+          "effectiveForNewAccountsFrom": "2025-06-23",
+          "effectiveForRenewalsFrom": "2025-10-26"
+        }
+      ],
+      "link": "https://www.referyourchasecard.com/19x/RASMQPD5JM#reserve"
     },
     {
       "id": "chase-sapphire-preferred",
@@ -92,7 +131,7 @@
       "issuer": "Chase",
       "color": "#05649A",
       "annualFee": 95,
-      "link": "https://www.referyourchasecard.com/19u/QRWLR7LZDU#preferred"
+      "link": "https://www.referyourchasecard.com/19x/RASMQPD5JM#preferred"
     },
     {
       "id": "citi-strata-premier",
@@ -109,7 +148,7 @@
       "shortname": "Citi Strata Elite",
       "issuer": "Citi",
       "color": "#0E0E0E",
-      "annualFee": 495,
+      "annualFee": 595,
       "link": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
     },
     {
@@ -153,7 +192,7 @@
       "name": "World of Hyatt Personal",
       "shortname": "World of Hyatt Personal",
       "issuer": "Chase",
-      "color": "#79787E",
+      "color": "#A8A9AD",
       "annualFee": 95,
       "link": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt"
     },
@@ -192,6 +231,288 @@
       "color": "#8B1F29",
       "annualFee": 0,
       "link": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+    },
+    {
+      "id": "bilt-blue",
+      "name": "Bilt Blue",
+      "shortname": "Bilt Blue",
+      "issuer": "Bilt",
+      "color": "#1E4F91",
+      "annualFee": 0,
+      "link": "https://www.bilt.com/card"
+    },
+    {
+      "id": "bilt-obsidian",
+      "name": "Bilt Obsidian",
+      "shortname": "Bilt Obsidian",
+      "issuer": "Bilt",
+      "color": "#23252A",
+      "annualFee": 95,
+      "link": "https://www.bilt.com/card"
+    },
+    {
+      "id": "bilt-palladium",
+      "name": "Bilt Palladium",
+      "shortname": "Bilt Palladium",
+      "issuer": "Bilt",
+      "color": "#8E939B",
+      "annualFee": 495,
+      "link": "https://www.bilt.com/card"
+    },
+    {
+      "id": "capital-one-venture-rewards",
+      "name": "Capital One Venture Rewards",
+      "shortname": "Venture Rewards",
+      "issuer": "Capital One",
+      "color": "#1F567D",
+      "annualFee": 95,
+      "link": "https://www.capitalone.com/credit-cards/venture/"
+    },
+    {
+      "id": "chase-united-explorer",
+      "name": "United Explorer",
+      "shortname": "United Explorer",
+      "issuer": "Chase",
+      "color": "#0F2F57",
+      "annualFee": 150,
+      "annualFeeSchedule": [
+        {
+          "amount": 95,
+          "appliesToAccountsOpenedBefore": "2025-03-24",
+          "validUntilRenewalOnOrAfter": "2026-01-01",
+          "note": "Existing cardmember annual fees change to $150 at renewal on or after January 1, 2026"
+        },
+        {
+          "amount": 150,
+          "effectiveForRenewalsFrom": "2026-01-01"
+        }
+      ],
+      "link": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer"
+    },
+    {
+      "id": "chase-southwest-priority",
+      "name": "Southwest Rapid Rewards Priority",
+      "shortname": "Southwest Priority",
+      "issuer": "Chase",
+      "color": "#354789",
+      "annualFee": 229,
+      "annualFeeSchedule": [
+        {
+          "amount": 149,
+          "appliesToAccountsOpenedBefore": "2025-07-24",
+          "validUntilRenewalOnOrAfter": "2026-01-01",
+          "note": "Existing cardmember annual fees change to $229 at the 2026 anniversary"
+        },
+        {
+          "amount": 229,
+          "effectiveForRenewalsFrom": "2026-01-01"
+        }
+      ],
+      "link": "https://creditcards.chase.com/southwest/priority-credit-card"
+    },
+    {
+      "id": "chase-southwest-plus",
+      "name": "Southwest Rapid Rewards Plus",
+      "shortname": "Southwest Plus",
+      "issuer": "Chase",
+      "color": "#8E949B",
+      "annualFee": 99,
+      "annualFeeSchedule": [
+        {
+          "amount": 69,
+          "appliesToAccountsOpenedBefore": "2025-07-24",
+          "validUntilRenewalOnOrAfter": "2026-01-01",
+          "note": "Existing cardmember annual fees change to $99 at the 2026 anniversary"
+        },
+        {
+          "amount": 99,
+          "effectiveForRenewalsFrom": "2026-01-01"
+        }
+      ],
+      "link": "https://creditcards.chase.com/southwest/plus-credit-card"
+    },
+    {
+      "id": "chase-southwest-premier",
+      "name": "Southwest Rapid Rewards Premier",
+      "shortname": "Southwest Premier",
+      "issuer": "Chase",
+      "color": "#293A80",
+      "annualFee": 149,
+      "annualFeeSchedule": [
+        {
+          "amount": 99,
+          "appliesToAccountsOpenedBefore": "2025-07-24",
+          "validUntilRenewalOnOrAfter": "2026-01-01",
+          "note": "Existing cardmember annual fees change to $149 at the 2026 anniversary"
+        },
+        {
+          "amount": 149,
+          "effectiveForRenewalsFrom": "2026-01-01"
+        }
+      ],
+      "link": "https://creditcards.chase.com/southwest/premier-credit-card"
+    },
+    {
+      "id": "chase-sapphire-reserve-business",
+      "name": "Chase Sapphire Reserve for Business",
+      "shortname": "Sapphire Reserve Business",
+      "issuer": "Chase",
+      "color": "#0E1C37",
+      "annualFee": 795,
+      "link": "https://creditcards.chase.com/a1/reservebusiness0626"
+    },
+    {
+      "id": "chase-united-club",
+      "name": "United Club",
+      "shortname": "United Club",
+      "issuer": "Chase",
+      "color": "#0F2F57",
+      "annualFee": 695,
+      "link": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite"
+    },
+    {
+      "id": "chase-united-club-business",
+      "name": "United Club Business",
+      "shortname": "United Club Business",
+      "issuer": "Chase",
+      "color": "#0F2F57",
+      "annualFee": 695,
+      "link": "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
+    },
+    {
+      "id": "chase-united-quest",
+      "name": "United Quest",
+      "shortname": "United Quest",
+      "issuer": "Chase",
+      "color": "#1F5A8A",
+      "annualFee": 350,
+      "link": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+    },
+    {
+      "id": "citi-aadvantage-executive",
+      "name": "Citi / AAdvantage Executive",
+      "shortname": "AAdvantage Executive",
+      "issuer": "Citi",
+      "color": "#1C2B39",
+      "annualFee": 595,
+      "link": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/"
+    },
+    {
+      "id": "citi-aadvantage-globe",
+      "name": "Citi / AAdvantage Globe",
+      "shortname": "AAdvantage Globe",
+      "issuer": "Citi",
+      "color": "#343C46",
+      "annualFee": 350,
+      "link": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+    },
+    {
+      "id": "bofa-premium-rewards-elite",
+      "name": "Bank of America Premium Rewards Elite",
+      "shortname": "BofA Premium Elite",
+      "issuer": "Bank of America",
+      "color": "#1F2836",
+      "annualFee": 550,
+      "link": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/"
+    },
+    {
+      "id": "bofa-premium-rewards",
+      "name": "Bank of America Premium Rewards",
+      "shortname": "BofA Premium Rewards",
+      "issuer": "Bank of America",
+      "color": "#9D1C20",
+      "annualFee": 95,
+      "link": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/"
+    },
+    {
+      "id": "us-bank-altitude-reserve",
+      "name": "U.S. Bank Altitude Reserve",
+      "shortname": "Altitude Reserve",
+      "issuer": "U.S. Bank",
+      "color": "#2F3338",
+      "annualFee": 400,
+      "link": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html"
+    },
+    {
+      "id": "chase-ritz-carlton",
+      "name": "Chase Ritz-Carlton",
+      "shortname": "Ritz-Carlton",
+      "issuer": "Chase",
+      "color": "#3F2E23",
+      "annualFee": 450,
+      "link": "https://marriott.chase.com/ritz-carlton"
+    },
+    {
+      "id": "amex-hilton-business",
+      "name": "Hilton Honors American Express Business",
+      "shortname": "Hilton Business",
+      "issuer": "American Express",
+      "color": "#4A547C",
+      "annualFee": 195,
+      "link": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/hilton-honors-american-express-business-credit-card-amex/"
+    },
+    {
+      "id": "amex-delta-reserve-business",
+      "name": "Delta SkyMiles Reserve Business",
+      "shortname": "Delta Reserve Business",
+      "issuer": "American Express",
+      "color": "#8B0000",
+      "annualFee": 650,
+      "link": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/"
+    },
+    {
+      "id": "amex-delta-platinum-business",
+      "name": "Delta SkyMiles Platinum Business",
+      "shortname": "Delta Platinum Business",
+      "issuer": "American Express",
+      "color": "#6D4C91",
+      "annualFee": 350,
+      "link": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/"
+    },
+    {
+      "id": "amex-green",
+      "name": "American Express Green",
+      "shortname": "Amex Green",
+      "issuer": "American Express",
+      "color": "#B6D8BA",
+      "annualFee": 150,
+      "link": "https://www.americanexpress.com/us/credit-cards/card/green/"
+    },
+    {
+      "id": "amex-blue-cash-preferred",
+      "name": "Blue Cash Preferred",
+      "shortname": "Blue Cash Preferred",
+      "issuer": "American Express",
+      "color": "#1E5C9A",
+      "annualFee": 95,
+      "link": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+    },
+    {
+      "id": "amex-marriott-business",
+      "name": "Marriott Bonvoy Business",
+      "shortname": "Marriott Business",
+      "issuer": "American Express",
+      "color": "#8B4513",
+      "annualFee": 125,
+      "link": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+    },
+    {
+      "id": "chase-marriott-boundless",
+      "name": "Marriott Bonvoy Boundless",
+      "shortname": "Marriott Boundless",
+      "issuer": "Chase",
+      "color": "#654321",
+      "annualFee": 95,
+      "link": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
+    },
+    {
+      "id": "chase-british-airways",
+      "name": "British Airways Visa",
+      "shortname": "British Airways",
+      "issuer": "Chase",
+      "color": "#1E3A5F",
+      "annualFee": 95,
+      "link": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
     }
   ],
   "benefits": [
@@ -218,6 +539,12 @@
           "category": "Shopping",
           "amount": 50,
           "resetPeriod": "Semi-Annual",
+          "availability": {
+            "endDate": "2026-06-30",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "replacementExpected": true,
+            "sourceUrl": "https://www.nerdwallet.com/travel/news/amex-platinum-saks-credit"
+          },
           "description": "Statement credits for purchases at Saks Fifth Avenue (up to $50 per semi-annual period). Enrollment required"
         },
         {
@@ -226,7 +553,7 @@
           "category": "Entertainment",
           "amount": 25,
           "resetPeriod": "Monthly",
-          "description": "Monthly statement credits for eligible digital entertainment purchases including ESPN+, Disney+, Hulu, Paramount+, Peacock, The New York Times, The Wall Street Journal, YouTube Premium, and YouTube TV. Enrollment required"
+          "description": "Monthly statement credits for eligible digital entertainment purchases including Disney+, ESPN+, Hulu, Paramount+, Peacock, The New York Times, The Wall Street Journal, YouTube Premium, and YouTube TV. Enrollment required"
         },
         {
           "id": "amex-platinum-airline",
@@ -258,7 +585,7 @@
           "category": "Shopping",
           "amount": 75,
           "resetPeriod": "Quarterly",
-          "description": "Up to $75 back in statement credits each quarter for eligible purchases at retail and online Lululemon locations in the U.S. Physical gift cards purchased on line or in store are eligible. Enrollment required"
+          "description": "Up to $75 back in statement credits each quarter for eligible purchases at retail and online Lululemon locations in the U.S. Physical gift cards purchased online or in-store are eligible. Enrollment required"
         },
         {
           "id": "amex-platinum-equinox",
@@ -305,9 +632,9 @@
           "id": "amex-platinum-clear",
           "name": "CLEAR+ Credit",
           "category": "AirTravel",
-          "amount": 209,
+          "amount": 219,
           "resetPeriod": "Yearly",
-          "description": "Statement credit for CLEAR+ Membership (subject to auto-renewal). Sign up and pay with your Platinum Card to receive up to $209 in statement credits per calendar year. Enrollment required"
+          "description": "Statement credit for CLEAR+ Membership (subject to auto-renewal). Sign up and pay with your Platinum Card to receive up to $219 in statement credits per calendar year. Enrollment required"
         },
         {
           "id": "amex-platinum-global-entry",
@@ -387,6 +714,14 @@
           "description": "Up to $90 in statement credits each quarter for eligible direct Indeed purchases, up to $360 per calendar year. Enrollment required"
         },
         {
+          "id": "amex-platinum-business-chatgpt",
+          "name": "ChatGPT Business Credit",
+          "category": "Business",
+          "amount": 300,
+          "resetPeriod": "Yearly",
+          "description": "Up to $300 in statement credits per calendar year on U.S. purchases of ChatGPT Business subscriptions. Enrollment required"
+        },
+        {
           "id": "amex-platinum-business-airline",
           "name": "Airline Fee Credit",
           "category": "AirTravel",
@@ -445,11 +780,11 @@
         },
         {
           "id": "amex-platinum-business-clear",
-          "name": "CLEAR Plus Credit",
+          "name": "CLEAR+ Credit",
           "category": "AirTravel",
-          "amount": 209,
+          "amount": 219,
           "resetPeriod": "Yearly",
-          "description": "Statement credit for CLEAR Plus Membership (subject to auto-renewal). Sign up and pay with your Platinum Card to receive up to $209 in statement credits per calendar year. Enrollment required"
+          "description": "Statement credit for CLEAR+ Membership (subject to auto-renewal). Sign up and pay with your Platinum Card to receive up to $219 in statement credits per calendar year. Enrollment required"
         },
         {
             "id": "amex-platinum-business-hotel-collection",
@@ -531,7 +866,23 @@
           "category": "Business",
           "amount": 20,
           "resetPeriod": "Monthly",
-          "description": "Earn up to $20 in statement credits monthly after you use the Business Gold Card for eligible U.S. purchases at FedEx, Grubhub, and Office Supply Stores. Enrollment required"
+          "description": "Earn up to $20 in statement credits monthly after you use the Business Gold Card for eligible U.S. purchases at FedEx (through 10/01/2026), Grubhub, and Office Supply Stores. Enrollment required"
+        },
+        {
+          "id": "amex-gold-business-chatgpt",
+          "name": "ChatGPT Business Credit",
+          "category": "Business",
+          "amount": 300,
+          "resetPeriod": "Yearly",
+          "description": "Up to $300 in statement credits per calendar year on U.S. purchases of ChatGPT Business subscriptions. Enrollment required"
+        },
+        {
+          "id": "amex-gold-business-squarespace",
+          "name": "Squarespace Credit",
+          "category": "Business",
+          "amount": 150,
+          "resetPeriod": "Yearly",
+          "description": "Up to $150 in statement credits per calendar year for U.S. purchases with Squarespace. Enrollment required"
         },
         {
           "id": "amex-gold-walmart-credit",
@@ -559,24 +910,16 @@
           "name": "Anniversary Bonus Miles",
           "category": "Rewards",
           "amount": -100,
-          "resetPeriod": "Never",
+          "resetPeriod": "Anniversary",
           "description": "10,000 bonus miles awarded each account anniversary (valued at $100 or more)"
         },
         {
           "id": "venture-x-lounge",
           "name": "Capital One Lounge Access",
           "category": "AirTravel",
-          "amount": -50,
+          "amount": -90,
           "resetPeriod": "Never",
-          "description": "Complimentary access to Capital One Lounges and 1,300+ Priority Pass lounges worldwide for cardholder and up to 2 guests"
-        },
-        {
-          "id": "venture-x-plaza-premium",
-          "name": "Plaza Premium Lounge Access",
-          "category": "AirTravel",
-          "amount": -35,
-          "resetPeriod": "Never",
-          "description": "Unlimited complimentary access to Plaza Premium lounges worldwide"
+          "description": "Complimentary access to Capital One Lounge and Landing locations and 1,300+ participating Priority Pass lounges worldwide"
         },
         {
           "id": "venture-x-hertz",
@@ -585,6 +928,22 @@
           "amount": 0,
           "resetPeriod": "Never",
           "description": "Complimentary Hertz President's Circle elite status"
+        },
+        {
+          "id": "venture-x-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 for Global Entry or TSA PreCheck application fee every 4 years"
+        },
+        {
+          "id": "venture-x-premier-collection",
+          "name": "Premier Collection Experience Credit",
+          "category": "Accommodation",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Up to $100 experience credit on eligible Premier Collection hotel and vacation rental bookings through Capital One Travel"
         }
       ]
     },
@@ -597,31 +956,47 @@
           "category": "GeneralTravel",
           "amount": 300,
           "resetPeriod": "Anniversary",
-          "description": "Statement credit for travel purchases booked through Capital One Travel portal. Resets on card anniversary"
+          "description": "Annual $300 credit for bookings through Capital One Business Travel. Resets on card anniversary"
         },
         {
           "id": "venture-x-business-anniversary-miles",
           "name": "Anniversary Bonus Miles",
           "category": "Rewards",
           "amount": -100,
-          "resetPeriod": "Never",
+          "resetPeriod": "Anniversary",
           "description": "10,000 bonus miles awarded each account anniversary (valued at $100 or more)"
         },
         {
           "id": "venture-x-business-lounge",
           "name": "Capital One Lounge Access",
           "category": "AirTravel",
-          "amount": -50,
+          "amount": -90,
           "resetPeriod": "Never",
-          "description": "Complimentary access to Capital One Lounges and 1,300+ Priority Pass lounges worldwide for primary cardholder"
+          "description": "Complimentary access to Capital One Lounge and Landing locations and 1,300+ participating Priority Pass lounges worldwide"
         },
         {
-          "id": "venture-x-business-plaza-premium",
-          "name": "Plaza Premium Lounge Access",
+          "id": "venture-x-business-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
           "category": "AirTravel",
-          "amount": -35,
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 for Global Entry or TSA PreCheck application fee every 4 years"
+        },
+        {
+          "id": "venture-x-business-hertz",
+          "name": "Hertz President's Circle Status",
+          "category": "GroundTravel",
+          "amount": 0,
           "resetPeriod": "Never",
-          "description": "Unlimited complimentary access to Plaza Premium lounges worldwide"
+          "description": "Complimentary Hertz President's Circle elite status"
+        },
+        {
+          "id": "venture-x-business-premier-collection",
+          "name": "Premier Collection Experience Credit",
+          "category": "Accommodation",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Up to $100 experience credit on eligible Premier Collection hotel and vacation rental bookings through Capital One Business Travel"
         }
       ]
     },
@@ -664,9 +1039,9 @@
           "id": "hilton-aspire-clear-credit",
           "name": "CLEAR+ Credit",
           "category": "AirTravel",
-          "amount": 209,
+          "amount": 219,
           "resetPeriod": "Yearly",
-          "description": "Up to $209 per calendar year in statement credits for a CLEAR+ membership (subject to auto-renewal)"
+          "description": "Up to $219 per calendar year in statement credits for a CLEAR+ membership (subject to auto-renewal)"
         },
         {
           "id": "hilton-aspire-waldorf-conrad",
@@ -741,7 +1116,7 @@
           "amount": 500,
           "resetPeriod": "Yearly",
           "usageCount": 2,
-          "description": "Up to $500 annual credit for stays booked through The Edit by Chase Travel. Can be used twice, as $250 each. Resets each calendar year"
+          "description": "Up to $500 annual credit for stays booked through The Edit by Chase Travel. Split into up to two $250 credits. Resets each calendar year"
         },
         {
           "id": "chase-reserve-select-hotel-credit",
@@ -749,7 +1124,13 @@
           "category": "Accommodation",
           "amount": 250,
           "resetPeriod": "Yearly",
-          "description": "Get up to $250 in statement credits through December 31, 2026 on prepaid Chase Travel hotel bookings for stays with IHG® Hotels & Resorts, Montage Hotels & Resorts, Pendry Hotels & Resorts, Omni Hotels & Resorts, Virgin Hotels, Minor Hotels, and Pan Pacific Hotels and Resorts. Two night minimum required. Purchases that qualify will not earn points. Tip: Can be combined with the Edit Hotel Credit"
+          "availability": {
+            "startDate": "2026-01-01",
+            "endDate": "2026-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://account.chase.com/sapphire/reserve/disclosures"
+          },
+          "description": "Get up to $250 in statement credits through December 31, 2026 on prepaid Chase Travel hotel bookings for stays with IHG® Hotels & Resorts, Montage Hotels & Resorts, Pendry Hotels & Resorts, Omni Hotels & Resorts, Virgin Hotels, Minor Hotels, and Pan Pacific Hotels and Resorts. Two-night minimum required. Purchases that qualify will not earn points. Tip: Can be combined with the Edit Hotel Credit"
         },
         {
           "id": "chase-reserve-appletv",
@@ -757,6 +1138,11 @@
           "category": "Entertainment",
           "amount": 0,
           "resetPeriod": "Never",
+          "availability": {
+            "endDate": "2027-06-22",
+            "endDateMeaning": "subscriptionEndDate",
+            "sourceUrl": "https://account.chase.com/sapphire/reserve/disclosures"
+          },
           "description": "Complimentary Apple TV+ and Apple Music subscriptions through June 22, 2027"
         },
         {
@@ -773,7 +1159,12 @@
           "category": "Entertainment",
           "amount": 150,
           "resetPeriod": "Semi-Annual",
-          "description": "Up to $300 annual credit for event tickets purchased on StubHub. Taxes and fees will get credited. Activation required. Resets each calendar year"
+          "availability": {
+            "endDate": "2027-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://account.chase.com/sapphire/reserve/disclosures"
+          },
+          "description": "Up to $300 annual credit for event tickets purchased on StubHub. Eligible taxes and fees/tips are included. Activation required. Resets each calendar year"
         },
         {
           "id": "chase-reserve-doordash",
@@ -781,6 +1172,12 @@
           "category": "Dining",
           "amount": 25,
           "resetPeriod": "Monthly",
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://media.chase.com/news/chase-doordash-benefits"
+          },
           "description": "Complimentary DoorDash DashPass membership plus up to $25 in monthly promos for DoorDash orders: one $5 monthly promo for restaurant orders and two $10 monthly promos for grocery, beauty, electronics, and other non-restaurant orders. Activation required"
         },
         {
@@ -797,6 +1194,11 @@
           "category": "GroundTravel",
           "amount": 10,
           "resetPeriod": "Monthly",
+          "availability": {
+            "endDate": "2027-09-30",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://account.chase.com/sapphire/reserve/disclosures"
+          },
           "description": "Up to $10 in statement credits monthly for Lyft rides through September 30, 2027. Activation required"
         },
         {
@@ -805,6 +1207,11 @@
           "category": "Wellness",
           "amount": 120,
           "resetPeriod": "Yearly",
+          "availability": {
+            "endDate": "2027-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://account.chase.com/sapphire/reserve/disclosures"
+          },
           "description": "Up to $120 in statement credits each year for eligible Peloton memberships through December 31, 2027. Activation required"
         },
         {
@@ -819,7 +1226,7 @@
           "id": "chase-reserve-sapphire-lounge",
           "name": "Chase Sapphire Lounge Access",
           "category": "AirTravel",
-          "amount": -50,
+          "amount": -59,
           "resetPeriod": "Never",
           "description": "Complimentary access to Chase Sapphire Lounges by The Club for cardholder and up to 2 guests"
         },
@@ -828,24 +1235,24 @@
           "name": "IHG One Rewards Diamond Status",
           "category": "Accommodation",
           "amount": 0,
-          "resetPeriod": "Never",
+          "resetPeriod": "Yearly",
           "description": "Complimentary IHG One Rewards Diamond Elite Status after spending $75k each calendar year. Enrollment required"
         },
         {
           "id": "chase-reserve-sw",
-          "name": "$500 Southwest Airlines Chase Travel Credit",
-          "category": "Accommodation",
+          "name": "Southwest Travel Credit",
+          "category": "AirTravel",
           "amount": 0,
-          "resetPeriod": "Never",
+          "resetPeriod": "Yearly",
           "description": "$500 Southwest Airlines Chase Travel credit after spending $75k each calendar year. Enrollment required"
         },
         {
           "id": "chase-reserve-global-entry",
-          "name": "Global Entry/TSA PreCheck Credit",
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
           "category": "AirTravel",
-          "amount": 100,
+          "amount": 120,
           "resetPeriod": "Quadrennially",
-          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+          "description": "Statement credit up to $120 every four years for Global Entry, TSA PreCheck, or NEXUS application fee"
         }
       ]
     },
@@ -854,19 +1261,33 @@
       "benefits": [
         {
           "id": "chase-preferred-hotel-credit",
-          "name": "Annual Chase Travel Credit",
+          "name": "Chase Travel Hotel Credit",
           "category": "Accommodation",
-          "amount": 50,
+          "amount": 100,
           "resetPeriod": "Anniversary",
           "description": "Statement credit for hotel stays booked through Chase Travel. Resets on card anniversary date"
         },
         {
-          "id": "chase-preferred-anniversary-boost",
-          "name": "10% anniversary boost",
-          "category": "Shopping",
-          "amount": 0,
+          "id": "chase-preferred-global-entry",
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 every four years for Global Entry, TSA PreCheck, or NEXUS application fee"
+        },
+        {
+          "id": "chase-preferred-appletv",
+          "name": "Apple TV+ Subscription",
+          "category": "Entertainment",
+          "amount": 100,
           "resetPeriod": "Never",
-          "description": "On card anniversary, you'll earn bonus points equal to 10% of your total purchases made the previous year. That means if you spend $25,000 on purchases, you'll get 2,500 bonus points"
+          "availability": {
+            "activationDeadline": "2026-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://media.chase.com/news/Meet-the-New-Chase-Sapphire-Preferred"
+          },
+          "description": "Complimentary Apple TV+ subscription for one year when activated by December 31, 2026"
         },
         {
           "id": "chase-preferred-dashpass",
@@ -874,7 +1295,13 @@
           "category": "Dining",
           "amount": 10,
           "resetPeriod": "Monthly",
-          "description": "Complimentary DoorDash DashPass membership for minimum 1 year after activation, plus monthly credit"
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://help.doordash.com/en-us/consumers/article/chase-partnership"
+          },
+          "description": "Complimentary DoorDash DashPass membership for minimum 1 year after activation, plus one $10 monthly promo on eligible non-restaurant DoorDash orders"
         }
       ]
     },
@@ -908,7 +1335,7 @@
           "category": "Shopping",
           "amount": 200,
           "resetPeriod": "Yearly",
-          "description": "Up to $200 in statement credits on your choice of up to two of the following brands: 1stDibs, American Airlines, Best Buy, ESPN+, Future and Live Nation"
+          "description": "Up to $200 in statement credits each calendar year on your choice of up to two brands: 1stDibs, American Airlines, Best Buy, Future Personal Training, and Live Nation"
         },
         {
           "id": "citi-elite-blacklane",
@@ -922,7 +1349,7 @@
           "id": "citi-elite-loungepasses",
           "name": "Admirals Club Lounge Passes",
           "category": "AirTravel",
-          "amount": -200,
+          "amount": -316,
           "resetPeriod": "Yearly",
           "usageCount": 4,
           "description": "4 AA Admirals Club lounge passes per year"
@@ -939,7 +1366,7 @@
           "id": "citi-elite-priority-pass",
           "name": "Priority Pass Select",
           "category": "AirTravel",
-          "amount": 0,
+          "amount": -35,
           "resetPeriod": "Never",
           "description": "Complimentary Priority Pass Select membership with access to 1,500+ lounges worldwide"
         }
@@ -960,10 +1387,10 @@
           "id": "alaska-summit-loungepasses",
           "name": "Alaska Lounge Passes",
           "category": "AirTravel",
-          "amount": -70,
+          "amount": -130,
           "resetPeriod": "Quarterly",
           "usageCount": 2,
-          "description": "2 Alaska lounge passes per quarter, when flying Alaska Airlines. Lounge passes are valid until the end of the quarter in which they are issued. Each pass admits one adult and up to two accompanied children (under 21) for same-day access to all Alaska Lounge locations. Minimum retail value: $35 per pass"
+          "description": "2 Alaska lounge passes per quarter, when flying Alaska Airlines. Lounge passes are valid until the end of the quarter in which they are issued. Each pass admits one adult and up to two accompanied children (under 21) for same-day access to all Alaska Lounge locations."
         },
         {
           "id": "alaska-summit-anniversary-statuspoints",
@@ -1021,11 +1448,11 @@
         },
         {
           "id": "delta-reserve-checked-bag",
-          "name": "First Checked Bag Free",
+          "name": "First & Second Checked Bags Free",
           "category": "AirTravel",
           "amount": 0,
           "resetPeriod": "Never",
-          "description": "Free first checked bag for cardholder and up to 8 guests on same reservation when flying Delta"
+          "description": "Free first checked bag on Delta flights worldwide and second checked bag on domestic Delta flights"
         },
         {
           "id": "delta-reserve-15off",
@@ -1078,10 +1505,18 @@
         {
           "id": "delta-reserve-medallion-boost",
           "name": "Delta Medallion Status Boost",
-          "category": "AirTravel",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive $2,500 MQD Headstart each Medallion Qualification Year and earn $1 MQD for each $10 in eligible card purchases"
+        },
+        {
+          "id": "delta-reserve-hertz-status",
+          "name": "Hertz President's Circle Status",
+          "category": "GroundTravel",
           "amount": 0,
           "resetPeriod": "Never",
-          "description": "Earn Medallion Qualification Dollars (MQDs) toward Delta elite status with card spend"
+          "description": "Complimentary Hertz President's Circle status after enrollment through Delta and Hertz"
         }
       ]
     },
@@ -1122,11 +1557,11 @@
         },
         {
           "id": "delta-platinum-checked-bag",
-          "name": "First Checked Bag Free",
+          "name": "First & Second Checked Bags Free",
           "category": "AirTravel",
-          "amount": -35,
+          "amount": 0,
           "resetPeriod": "Never",
-          "description": "Free first checked bag for cardholder and up to 8 guests on same reservation when flying Delta"
+          "description": "Free first checked bag on Delta flights worldwide and second checked bag on domestic Delta flights"
         },
         {
           "id": "delta-platinum-priority-boarding",
@@ -1135,6 +1570,30 @@
           "amount": 0,
           "resetPeriod": "Never",
           "description": "Priority boarding on Delta flights"
+        },
+        {
+          "id": "delta-platinum-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+        },
+        {
+          "id": "delta-platinum-medallion-boost",
+          "name": "Delta Medallion Status Boost",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive $2,500 MQD Headstart each Medallion Qualification Year and earn $1 MQD for each $20 in eligible card purchases"
+        },
+        {
+          "id": "delta-platinum-hertz-status",
+          "name": "Hertz Five Star Status",
+          "category": "GroundTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Complimentary Hertz Five Star status after enrollment through Delta and Hertz"
         }
       ]
     },
@@ -1166,20 +1625,36 @@
           "description": "Up to $25 in statement credits each month for eligible restaurant purchases worldwide"
         },
         {
-          "id": "marriott-brilliant-priority-pass",
-          "name": "Priority Pass Select",
-          "category": "AirTravel",
-          "amount": 0,
-          "resetPeriod": "Never",
-          "description": "Complimentary Priority Pass Select membership with access to 1,300+ lounges worldwide"
-        },
-        {
           "id": "marriott-brilliant-spend-bonus",
-          "name": "Spend Bonus Free Night",
+          "name": "Brilliant Earned Choice Award",
           "category": "Accommodation",
           "amount": 0,
           "resetPeriod": "Yearly",
-          "description": "Additional free night award after spending $25,000 in a calendar year (valid at properties up to 85,000 points)"
+          "description": "Earn one Brilliant Earned Choice Award after spending $60,000 in eligible purchases in a calendar year"
+        },
+        {
+          "id": "marriott-brilliant-property-credit",
+          "name": "Ritz-Carlton/St. Regis Property Credit",
+          "category": "Accommodation",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Up to $100 property credit for qualifying charges at The Ritz-Carlton or St. Regis when booking direct with the special rate for a minimum 2-night stay"
+        },
+        {
+          "id": "marriott-brilliant-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+        },
+        {
+          "id": "marriott-brilliant-elite-nights",
+          "name": "25 Elite Night Credits",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive 25 Elite Night Credits each calendar year toward the next level of Marriott Bonvoy elite status"
         }
       ]
     },
@@ -1209,6 +1684,20 @@
           "amount": 0,
           "resetPeriod": "Yearly",
           "description": "5 tier-qualifying night credits toward elite status each calendar year, plus 2 additional credits for every $5,000 spent"
+        },
+        {
+          "id": "hyatt-dashpass",
+          "name": "DoorDash DashPass & Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Quarterly",
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
+          },
+          "description": "Complimentary DoorDash DashPass membership for one year, plus up to $10 off quarterly on eligible non-restaurant DoorDash orders through December 31, 2027"
         }
       ]
     },
@@ -1221,7 +1710,7 @@
           "category": "Accommodation",
           "amount": 0,
           "resetPeriod": "Never",
-          "description": "Complimentary World of Hyatt Discoverist elite status for card holder and up to 5 designated employees. Discoverist status for designated employees will remain in effect for the remainder of the calendar year in which the benefit is given plus the next 14 months"
+          "description": "Complimentary World of Hyatt Discoverist elite status for cardholder and up to 5 designated employees. Discoverist status for designated employees will remain in effect for the remainder of the calendar year in which the benefit is given plus the next 14 months"
         },
         {
           "id": "hyatt-business-tier-credits",
@@ -1247,6 +1736,20 @@
           "amount": 0,
           "resetPeriod": "Never",
           "description": "Earn bonus points when employee cardholders make purchases"
+        },
+        {
+          "id": "hyatt-business-dashpass",
+          "name": "DoorDash DashPass & Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Quarterly",
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card"
+          },
+          "description": "Complimentary DoorDash DashPass membership for one year, plus up to $10 off quarterly on eligible non-restaurant DoorDash orders through December 31, 2027"
         }
       ]
     },
@@ -1281,9 +1784,25 @@
           "id": "ihg-premier-fourth-night-free",
           "name": "Fourth Night Free",
           "category": "Accommodation",
-          "amount": -100,
+          "amount": 0,
           "resetPeriod": "Never",
           "description": "Receive a fourth reward night free when you redeem points for any stay of four or more consecutive nights"
+        },
+        {
+          "id": "ihg-premier-global-entry",
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 every four years for Global Entry, TSA PreCheck, or NEXUS application fee"
+        },
+        {
+          "id": "ihg-premier-spend-credit",
+          "name": "$100 Statement Credit and 10,000 Bonus Points",
+          "category": "Rewards",
+          "amount": 100,
+          "resetPeriod": "Yearly",
+          "description": "Earn a $100 statement credit and 10,000 bonus points after spending $20,000 each calendar year"
         }
       ]
     },
@@ -1318,9 +1837,25 @@
           "id": "ihg-premier-biz-fourth-night-free",
           "name": "Fourth Night Free",
           "category": "Accommodation",
-          "amount": -100,
+          "amount": 0,
           "resetPeriod": "Never",
           "description": "Receive a fourth reward night free when you redeem points for any stay of four or more consecutive nights"
+        },
+        {
+          "id": "ihg-premier-biz-global-entry",
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 every four years for Global Entry, TSA PreCheck, or NEXUS application fee"
+        },
+        {
+          "id": "ihg-premier-biz-spend-credit",
+          "name": "$100 Statement Credit and 10,000 Bonus Points",
+          "category": "Rewards",
+          "amount": 100,
+          "resetPeriod": "Yearly",
+          "description": "Earn a $100 statement credit and 10,000 bonus points after spending $20,000 each calendar year"
         }
       ]
     },
@@ -1334,6 +1869,1182 @@
           "amount": 0,
           "resetPeriod": "Never",
           "description": "Cell phone protection against damage or theft when you pay your monthly bill with the card (up to $600 per claim, $25 deductible)"
+        }
+      ]
+    },
+    {
+      "cardId": "bilt-blue",
+      "benefits": []
+    },
+    {
+      "cardId": "bilt-obsidian",
+      "benefits": [
+        {
+          "id": "bilt-obsidian-hotel-credit",
+          "name": "Bilt Travel Hotel Credit",
+          "category": "Accommodation",
+          "amount": 50,
+          "resetPeriod": "Semi-Annual",
+          "description": "Up to $100 in hotel credits each calendar year, applied as up to $50 on qualifying prepaid hotel bookings through the Bilt Travel Portal from January 1 through June 30 and up to $50 from July 1 through December 31"
+        }
+      ]
+    },
+    {
+      "cardId": "bilt-palladium",
+      "benefits": [
+        {
+          "id": "bilt-palladium-cash",
+          "name": "Bilt Cash Benefit",
+          "category": "Rewards",
+          "amount": 200,
+          "resetPeriod": "Yearly",
+          "description": "$200 in Bilt Cash each calendar year, credited on account opening and on January 1 in subsequent years while the account remains open and in good standing. Any balance of Bilt Cash over $100 expires at year-end"
+        },
+        {
+          "id": "bilt-palladium-hotel-credit",
+          "name": "Bilt Travel Hotel Credit",
+          "category": "Accommodation",
+          "amount": 200,
+          "resetPeriod": "Semi-Annual",
+          "description": "Up to $400 in hotel credits each calendar year, applied as up to $200 on qualifying prepaid hotel bookings through the Bilt Travel Portal from January 1 through June 30 and up to $200 from July 1 through December 31"
+        },
+        {
+          "id": "bilt-palladium-priority-pass",
+          "name": "Priority Pass Select",
+          "category": "AirTravel",
+          "amount": -35,
+          "resetPeriod": "Never",
+          "description": "Complimentary Priority Pass lounge access at 1,300+ airports"
+        }
+      ]
+    },
+    {
+      "cardId": "capital-one-venture-rewards",
+      "benefits": [
+        {
+          "id": "venture-rewards-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Up to $120 statement credit when you use the card to apply for Global Entry or TSA PreCheck"
+        },
+        {
+          "id": "venture-rewards-hertz-five-star",
+          "name": "Hertz Five Star Status",
+          "category": "GroundTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Complimentary Hertz Five Star status for eligible cardholders"
+        },
+        {
+          "id": "venture-rewards-lifestyle-collection",
+          "name": "Lifestyle Collection Experience Credit",
+          "category": "Accommodation",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Up to $50 experience credit on eligible Lifestyle Collection hotel and vacation rental bookings through Capital One Travel"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-united-explorer",
+      "benefits": [
+        {
+          "id": "united-explorer-united-travelbank",
+          "name": "United TravelBank Credit",
+          "category": "AirTravel",
+          "amount": 100,
+          "resetPeriod": "Yearly",
+          "description": "Earn $100 in United TravelBank cash after spending $10,000 on purchases in a calendar year"
+        },
+        {
+          "id": "united-explorer-united-hotels",
+          "name": "United Hotels Credit",
+          "category": "Accommodation",
+          "amount": 100,
+          "resetPeriod": "Anniversary",
+          "usageCount": 2,
+          "description": "Receive $50 back as a statement credit on both your first and second prepaid hotel stays purchased directly through United Hotels each anniversary year"
+        },
+        {
+          "id": "united-explorer-rideshare",
+          "name": "Rideshare Credit",
+          "category": "GroundTravel",
+          "amount": 5,
+          "resetPeriod": "Monthly",
+          "description": "Up to $5 back as a statement credit each month on rideshare purchases when enrolled, up to $60 each calendar year"
+        },
+        {
+          "id": "united-explorer-avis-budget",
+          "name": "Avis/Budget United TravelBank Credit",
+          "category": "AirTravel",
+          "amount": 50,
+          "resetPeriod": "Anniversary",
+          "usageCount": 2,
+          "description": "Receive $25 in United TravelBank cash for your first and second Avis or Budget car rental booked directly through cars.united.com each anniversary year"
+        },
+        {
+          "id": "united-explorer-instacart",
+          "name": "Instacart Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "availability": {
+            "endDate": "2027-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer"
+          },
+          "description": "Receive a $10 Instacart credit each month, up to $120 total each calendar year. Benefit ends December 31, 2027"
+        },
+        {
+          "id": "united-explorer-jsx",
+          "name": "JSX Credit",
+          "category": "AirTravel",
+          "amount": 100,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $100 back as a statement credit each anniversary year on flights purchased directly through JSX"
+        },
+        {
+          "id": "united-explorer-global-entry",
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Receive a statement credit of up to $120 every 4 years for a Global Entry, TSA PreCheck, or NEXUS application fee charged to the card"
+        },
+        {
+          "id": "united-explorer-united-club-passes",
+          "name": "United Club One-Time Passes",
+          "category": "AirTravel",
+          "amount": -118,
+          "resetPeriod": "Anniversary",
+          "usageCount": 2,
+          "description": "Two United Club one-time passes after account opening and on each cardmember anniversary"
+        },
+        {
+          "id": "united-explorer-first-checked-bag",
+          "name": "First Checked Bag Free",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and one companion on the same reservation each receive a first standard checked bag free on United-operated flights when eligible requirements are met"
+        },
+        {
+          "id": "united-explorer-priority-boarding",
+          "name": "Priority Boarding",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and companions on the same reservation are invited to board United-operated flights before general boarding"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-southwest-priority",
+      "benefits": [
+        {
+          "id": "southwest-priority-anniversary-points",
+          "name": "Anniversary Bonus Points",
+          "category": "Rewards",
+          "amount": -75,
+          "resetPeriod": "Anniversary",
+          "description": "Receive 7,500 bonus points each account anniversary year"
+        },
+        {
+          "id": "southwest-priority-companion-pass-boost",
+          "name": "Companion Pass Qualifying Points Boost",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive a boost of 10,000 Companion Pass qualifying points each calendar year"
+        },
+        {
+          "id": "southwest-priority-preferred-seat",
+          "name": "Preferred Seat at Booking",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Select a Preferred or Standard seat at booking at no additional charge, when available, for the primary cardmember and up to 8 additional passengers on the same reservation"
+        },
+        {
+          "id": "southwest-priority-extra-legroom",
+          "name": "Extra Legroom Seat Upgrade",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Unlimited upgrades to an Extra Legroom seat within 48 hours prior to departure at no additional charge, when available, for the primary cardmember and up to 8 additional passengers on the same reservation"
+        },
+        {
+          "id": "southwest-priority-first-checked-bag",
+          "name": "First Checked Bag Free",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and up to 8 additional passengers on the same reservation each receive a first standard checked bag free on eligible Southwest-operated flights"
+        },
+        {
+          "id": "southwest-priority-group-5",
+          "name": "Group 5 Boarding",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and up to 8 additional passengers on the same reservation board no later than Group 5"
+        },
+        {
+          "id": "southwest-priority-dashpass",
+          "name": "DoorDash DashPass & Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Quarterly",
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://creditcards.chase.com/southwest/priority-credit-card"
+          },
+          "description": "Complimentary DashPass membership for 12 months when activated by December 31, 2027, plus up to $10 off quarterly on eligible non-restaurant DoorDash orders"
+        },
+        {
+          "id": "southwest-priority-instacart",
+          "name": "Instacart Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $120 in Instacart credits annually, applied as a $10 monthly Instacart credit, plus 3 months of complimentary Instacart+"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-southwest-plus",
+      "benefits": [
+        {
+          "id": "southwest-plus-anniversary-points",
+          "name": "Anniversary Bonus Points",
+          "category": "Rewards",
+          "amount": -30,
+          "resetPeriod": "Anniversary",
+          "description": "Receive 3,000 bonus points each account anniversary year"
+        },
+        {
+          "id": "southwest-plus-companion-pass-boost",
+          "name": "Companion Pass Qualifying Points Boost",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive a boost of 10,000 Companion Pass qualifying points each calendar year"
+        },
+        {
+          "id": "southwest-plus-flight-discount",
+          "name": "10% Flight Discount Promo Code",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Anniversary",
+          "description": "Receive one 10% promo code each account anniversary year for Southwest flights, excluding Basic fares"
+        },
+        {
+          "id": "southwest-plus-standard-seat",
+          "name": "Complimentary Standard Seat",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Select a Standard seat within 48 hours prior to departure, when available, for the primary cardmember and up to 8 additional passengers on the same reservation"
+        },
+        {
+          "id": "southwest-plus-first-checked-bag",
+          "name": "First Checked Bag Free",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and up to 8 additional passengers on the same reservation each receive a first standard checked bag free on eligible Southwest-operated flights"
+        },
+        {
+          "id": "southwest-plus-group-5",
+          "name": "Group 5 Boarding",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and up to 8 additional passengers on the same reservation board no later than Group 5"
+        },
+        {
+          "id": "southwest-plus-dashpass",
+          "name": "DoorDash DashPass & Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Quarterly",
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://creditcards.chase.com/southwest/plus-credit-card"
+          },
+          "description": "Complimentary DashPass membership for 12 months when activated by December 31, 2027, plus up to $10 off quarterly on eligible non-restaurant DoorDash orders"
+        },
+        {
+          "id": "southwest-plus-instacart",
+          "name": "Instacart Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $120 in Instacart credits annually, applied as a $10 monthly Instacart credit, plus 3 months of complimentary Instacart+"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-southwest-premier",
+      "benefits": [
+        {
+          "id": "southwest-premier-anniversary-points",
+          "name": "Anniversary Bonus Points",
+          "category": "Rewards",
+          "amount": -60,
+          "resetPeriod": "Anniversary",
+          "description": "Receive 6,000 bonus points each account anniversary year"
+        },
+        {
+          "id": "southwest-premier-companion-pass-boost",
+          "name": "Companion Pass Qualifying Points Boost",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive a boost of 10,000 Companion Pass qualifying points each calendar year"
+        },
+        {
+          "id": "southwest-premier-preferred-seat",
+          "name": "Complimentary Preferred Seat",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Select a Preferred or Standard seat within 48 hours prior to departure, when available, for the primary cardmember and up to 8 additional passengers on the same reservation"
+        },
+        {
+          "id": "southwest-premier-first-checked-bag",
+          "name": "First Checked Bag Free",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and up to 8 additional passengers on the same reservation each receive a first standard checked bag free on eligible Southwest-operated flights"
+        },
+        {
+          "id": "southwest-premier-group-5",
+          "name": "Group 5 Boarding",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Primary cardmember and up to 8 additional passengers on the same reservation board no later than Group 5"
+        },
+        {
+          "id": "southwest-premier-dashpass",
+          "name": "DoorDash DashPass & Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Quarterly",
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://creditcards.chase.com/southwest/premier-credit-card"
+          },
+          "description": "Complimentary DashPass membership for 12 months when activated by December 31, 2027, plus up to $10 off quarterly on eligible non-restaurant DoorDash orders"
+        },
+        {
+          "id": "southwest-premier-instacart",
+          "name": "Instacart Credit",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $120 in Instacart credits annually, applied as a $10 monthly Instacart credit, plus 3 months of complimentary Instacart+"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-sapphire-reserve-business",
+      "benefits": [
+        {
+          "id": "sapphire-reserve-business-travel-credit",
+          "name": "Annual Travel Credit",
+          "category": "GeneralTravel",
+          "amount": 300,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $300 in statement credits each anniversary year for eligible travel purchases"
+        },
+        {
+          "id": "sapphire-reserve-business-chase-hotels",
+          "name": "Select Chase Travel Hotel Credit",
+          "category": "Accommodation",
+          "amount": 250,
+          "resetPeriod": "Yearly",
+          "availability": {
+            "endDate": "2026-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://creditcards.chase.com/a1/reservebusiness0626"
+          },
+          "description": "Up to $250 in statement credits through December 31, 2026 on eligible prepaid Chase Travel hotel bookings. Two-night minimum required"
+        },
+        {
+          "id": "sapphire-reserve-business-edit-credit",
+          "name": "The Edit Hotel Credit",
+          "category": "Accommodation",
+          "amount": 500,
+          "resetPeriod": "Yearly",
+          "usageCount": 2,
+          "description": "Up to $500 in automatic statement credits annually for bookings made with The Edit, with a maximum of $250 per transaction. Two-night minimum required"
+        },
+        {
+          "id": "sapphire-reserve-business-lounge",
+          "name": "Sapphire Lounge and Priority Pass",
+          "category": "AirTravel",
+          "amount": -59,
+          "resetPeriod": "Never",
+          "description": "Complimentary access to Chase Sapphire Lounges by The Club and Priority Pass Select lounges worldwide for the primary cardmember and up to two guests"
+        },
+        {
+          "id": "sapphire-reserve-business-global-entry",
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 every four years for Global Entry, TSA PreCheck, or NEXUS application fee"
+        },
+        {
+          "id": "sapphire-reserve-business-giftcards",
+          "name": "Curated Gift Card Credit",
+          "category": "Shopping",
+          "amount": 50,
+          "resetPeriod": "Semi-Annual",
+          "description": "Up to $100 per year in statement credits for eligible curated gift card purchases, split as up to $50 January through June and up to $50 July through December"
+        },
+        {
+          "id": "sapphire-reserve-business-google-workspace",
+          "name": "Google Workspace Credit",
+          "category": "Business",
+          "amount": 200,
+          "resetPeriod": "Yearly",
+          "description": "Up to $200 in annual statement credits on purchases made directly with Google Workspace"
+        },
+        {
+          "id": "sapphire-reserve-business-ziprecruiter",
+          "name": "ZipRecruiter Credit",
+          "category": "Business",
+          "amount": 200,
+          "resetPeriod": "Semi-Annual",
+          "description": "Up to $400 in annual statement credits on purchases made directly with ZipRecruiter, split as up to $200 January through June and up to $200 July through December"
+        },
+        {
+          "id": "sapphire-reserve-business-doordash",
+          "name": "DoorDash Promos",
+          "category": "Shopping",
+          "amount": 25,
+          "resetPeriod": "Monthly",
+          "availability": {
+            "activationDeadline": "2027-12-31",
+            "endDate": "2027-12-31",
+            "minimumDurationMonths": 12,
+            "endDateMeaning": "activationDependent",
+            "sourceUrl": "https://creditcards.chase.com/a1/reservebusiness0626"
+          },
+          "description": "DashPass members get up to $25 each month in DoorDash promos through December 31, 2027, including a $5 restaurant promo and two $10 grocery, retail, or other non-restaurant promos"
+        },
+        {
+          "id": "sapphire-reserve-business-lyft",
+          "name": "Lyft Credit",
+          "category": "GroundTravel",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "availability": {
+            "endDate": "2027-09-30",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://creditcards.chase.com/a1/reservebusiness0626"
+          },
+          "description": "Up to $10 in monthly in-app Lyft credits, up to $120 annually, through September 30, 2027"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-united-club",
+      "benefits": [
+        {
+          "id": "united-club-membership",
+          "name": "United Club Membership",
+          "category": "AirTravel",
+          "amount": -59,
+          "resetPeriod": "Never",
+          "description": "United Club membership for the primary cardmember, including United Club access for the cardmember and one guest"
+        },
+        {
+          "id": "united-club-renowned-hotels",
+          "name": "Renowned Hotels Credit",
+          "category": "Accommodation",
+          "amount": 200,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $200 back in statement credits each anniversary year on prepaid hotel stays purchased directly through Renowned Hotels and Resorts for United Cardmembers"
+        },
+        {
+          "id": "united-club-rideshare",
+          "name": "Rideshare Credit",
+          "category": "GroundTravel",
+          "amount": 12,
+          "resetPeriod": "Monthly",
+          "amountSchedule": {
+            "type": "monthly",
+            "overrides": {
+              "12": 18
+            }
+          },
+          "description": "Up to $150 back as statement credits each calendar year on rideshare purchases after yearly opt-in: up to $12 monthly January through November and up to $18 in December"
+        },
+        {
+          "id": "united-club-avis-budget",
+          "name": "Avis/Budget United TravelBank Credit",
+          "category": "GroundTravel",
+          "amount": 100,
+          "resetPeriod": "Anniversary",
+          "usageCount": 2,
+          "description": "Receive $50 in United TravelBank cash, up to $100 each anniversary year, for the first and second eligible Avis or Budget car rental booked through cars.united.com"
+        },
+        {
+          "id": "united-club-instacart",
+          "name": "Instacart Credits",
+          "category": "Shopping",
+          "amount": 20,
+          "resetPeriod": "Monthly",
+          "availability": {
+            "endDate": "2027-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite"
+          },
+          "description": "Two $10 Instacart credits monthly, up to $240 each calendar year. Benefits end December 31, 2027"
+        },
+        {
+          "id": "united-club-jsx",
+          "name": "JSX Credit",
+          "category": "AirTravel",
+          "amount": 200,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $200 back as a statement credit each anniversary year when booking JSX flights directly with JSX"
+        },
+        {
+          "id": "united-club-award-discount",
+          "name": "Award Flight Discount",
+          "category": "AirTravel",
+          "amount": -200,
+          "resetPeriod": "Yearly",
+          "usageCount": 2,
+          "description": "Earn a 10,000-mile award flight discount after $20,000 in purchases, up to two times each calendar year"
+        },
+        {
+          "id": "united-club-pqp-boost",
+          "name": "Card Bonus PQP",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive 1,500 Card Bonus Premier qualifying points each year, awarded within 8 weeks of February 1 starting in the calendar year after account opening"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-united-club-business",
+      "benefits": [
+        {
+          "id": "united-club-business-membership",
+          "name": "United Club Membership",
+          "category": "AirTravel",
+          "amount": -59,
+          "resetPeriod": "Never",
+          "description": "United Club membership for the primary business cardmember"
+        },
+        {
+          "id": "united-club-business-renowned-hotels",
+          "name": "Renowned Hotels Credit",
+          "category": "Accommodation",
+          "amount": 200,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $200 back in statement credits each anniversary year on prepaid hotel stays purchased directly through Renowned Hotels and Resorts for United Cardmembers"
+        },
+        {
+          "id": "united-club-business-rideshare",
+          "name": "Rideshare Credit",
+          "category": "GroundTravel",
+          "amount": 12,
+          "resetPeriod": "Monthly",
+          "amountSchedule": {
+            "type": "monthly",
+            "overrides": {
+              "12": 18
+            }
+          },
+          "description": "Up to $150 back as statement credits each calendar year on rideshare purchases after yearly opt-in: up to $12 monthly January through November and up to $18 in December"
+        },
+        {
+          "id": "united-club-business-avis-budget",
+          "name": "Avis/Budget United TravelBank Credit",
+          "category": "GroundTravel",
+          "amount": 100,
+          "resetPeriod": "Anniversary",
+          "usageCount": 2,
+          "description": "Receive $50 in United TravelBank cash, up to $100 each anniversary year, for the first and second eligible Avis or Budget car rental booked through cars.united.com"
+        },
+        {
+          "id": "united-club-business-instacart",
+          "name": "Instacart Credits",
+          "category": "Shopping",
+          "amount": 20,
+          "resetPeriod": "Monthly",
+          "availability": {
+            "endDate": "2027-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
+          },
+          "description": "Two $10 Instacart credits monthly, up to $240 each calendar year. Benefits end December 31, 2027"
+        },
+        {
+          "id": "united-club-business-jsx",
+          "name": "JSX Credit",
+          "category": "AirTravel",
+          "amount": 200,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $200 back as a statement credit each anniversary year when booking JSX flights directly with JSX"
+        },
+        {
+          "id": "united-club-business-farelock",
+          "name": "FareLock Credit",
+          "category": "AirTravel",
+          "amount": 50,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $50 in annual FareLock credits for eligible United bookings"
+        },
+        {
+          "id": "united-club-business-award-discount",
+          "name": "Award Flight Discount",
+          "category": "AirTravel",
+          "amount": -200,
+          "resetPeriod": "Yearly",
+          "usageCount": 2,
+          "description": "Earn a 10,000-mile award flight discount after $20,000 in purchases, up to two times each calendar year"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-united-quest",
+      "benefits": [
+        {
+          "id": "united-quest-travel-credit",
+          "name": "United Travel Credit",
+          "category": "AirTravel",
+          "amount": 200,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $200 back in statement credits each anniversary year for eligible United purchases"
+        },
+        {
+          "id": "united-quest-award-discount",
+          "name": "Award Flight Discount",
+          "category": "AirTravel",
+          "amount": -200,
+          "resetPeriod": "Yearly",
+          "usageCount": 2,
+          "description": "Earn a 10,000-mile award flight discount after qualifying purchases, up to two times each calendar year"
+        },
+        {
+          "id": "united-quest-renowned-hotels",
+          "name": "Renowned Hotels Credit",
+          "category": "Accommodation",
+          "amount": 150,
+          "resetPeriod": "Anniversary",
+          "description": "Up to $150 back in statement credits each anniversary year on prepaid hotel stays purchased directly through Renowned Hotels and Resorts for United Cardmembers"
+        },
+        {
+          "id": "united-quest-rideshare",
+          "name": "Rideshare Credit",
+          "category": "GroundTravel",
+          "amount": 8,
+          "resetPeriod": "Monthly",
+          "amountSchedule": {
+            "type": "monthly",
+            "overrides": {
+              "12": 12
+            }
+          },
+          "description": "Up to $100 back as statement credits each calendar year on rideshare purchases after yearly opt-in: up to $8 monthly January through November and up to $12 in December"
+        },
+        {
+          "id": "united-quest-instacart",
+          "name": "Instacart Credits",
+          "category": "Shopping",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "availability": {
+            "endDate": "2027-12-31",
+            "endDateMeaning": "lastEligiblePurchaseDate",
+            "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+          },
+          "description": "Up to $10 in Instacart credits monthly, up to $120 each calendar year. Benefits end December 31, 2027"
+        },
+        {
+          "id": "united-quest-avis-budget",
+          "name": "Avis/Budget United TravelBank Credit",
+          "category": "GroundTravel",
+          "amount": 80,
+          "resetPeriod": "Anniversary",
+          "usageCount": 2,
+          "description": "Receive $40 in United TravelBank cash, up to $80 each anniversary year, for the first and second eligible Avis or Budget car rental booked through cars.united.com"
+        },
+        {
+          "id": "united-quest-global-entry",
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 every four years for Global Entry, TSA PreCheck, or NEXUS application fee"
+        },
+        {
+          "id": "united-quest-pqp-boost",
+          "name": "Card Bonus PQP",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive 1,000 Card Bonus Premier qualifying points each year, awarded within 8 weeks of February 1 starting in the calendar year after account opening"
+        }
+      ]
+    },
+    {
+      "cardId": "citi-aadvantage-executive",
+      "benefits": [
+        {
+          "id": "aadvantage-executive-admirals-club",
+          "name": "Admirals Club Membership",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Complimentary Admirals Club membership for the primary cardmember"
+        },
+        {
+          "id": "aadvantage-executive-avis-budget",
+          "name": "Avis/Budget Credit",
+          "category": "GroundTravel",
+          "amount": 120,
+          "resetPeriod": "Yearly",
+          "description": "Up to $120 back each calendar year on eligible prepaid Avis or Budget car rentals booked directly with Avis or Budget"
+        },
+        {
+          "id": "aadvantage-executive-lyft",
+          "name": "Lyft Credit",
+          "category": "GroundTravel",
+          "amount": 120,
+          "resetPeriod": "Yearly",
+          "description": "Up to $120 in annual Lyft credits after taking qualifying Lyft rides"
+        },
+        {
+          "id": "aadvantage-executive-grubhub",
+          "name": "Grubhub Credit",
+          "category": "Dining",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $10 in monthly Grubhub credits, up to $120 each calendar year"
+        },
+        {
+          "id": "aadvantage-executive-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+        }
+      ]
+    },
+    {
+      "cardId": "citi-aadvantage-globe",
+      "benefits": [
+        {
+          "id": "aadvantage-globe-splurge",
+          "name": "Splurge Credit",
+          "category": "Shopping",
+          "amount": 100,
+          "resetPeriod": "Yearly",
+          "description": "Up to $100 in annual statement credits with a choice of eligible Splurge Credit merchants"
+        },
+        {
+          "id": "aadvantage-globe-turo",
+          "name": "Turo Credits",
+          "category": "GroundTravel",
+          "amount": 120,
+          "resetPeriod": "Yearly",
+          "description": "Up to $120 in annual Turo credits"
+        },
+        {
+          "id": "aadvantage-globe-inflight",
+          "name": "Inflight Credit",
+          "category": "AirTravel",
+          "amount": 100,
+          "resetPeriod": "Yearly",
+          "description": "Up to $100 in annual statement credits for eligible American Airlines inflight purchases"
+        },
+        {
+          "id": "aadvantage-globe-admirals-club-passes",
+          "name": "Admirals Club Passes",
+          "category": "AirTravel",
+          "amount": -316,
+          "resetPeriod": "Yearly",
+          "usageCount": 4,
+          "description": "Four Admirals Club one-day passes each calendar year"
+        }
+      ]
+    },
+    {
+      "cardId": "bofa-premium-rewards-elite",
+      "benefits": [
+        {
+          "id": "bofa-premium-elite-airline",
+          "name": "Airline Incidental Credit",
+          "category": "AirTravel",
+          "amount": 300,
+          "resetPeriod": "Yearly",
+          "description": "Up to $300 in statement credits each calendar year for qualifying airline incidental transactions"
+        },
+        {
+          "id": "bofa-premium-elite-lifestyle",
+          "name": "Lifestyle Credit",
+          "category": "Entertainment",
+          "amount": 150,
+          "resetPeriod": "Yearly",
+          "description": "Up to $150 in statement credits each calendar year for eligible lifestyle convenience purchases"
+        },
+        {
+          "id": "bofa-premium-elite-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $120 every four years for Global Entry or TSA PreCheck application fee"
+        },
+        {
+          "id": "bofa-premium-elite-priority-pass",
+          "name": "Priority Pass Select",
+          "category": "AirTravel",
+          "amount": -35,
+          "resetPeriod": "Never",
+          "description": "Complimentary Priority Pass Select membership"
+        }
+      ]
+    },
+    {
+      "cardId": "bofa-premium-rewards",
+      "benefits": [
+        {
+          "id": "bofa-premium-airline",
+          "name": "Airline Incidental Credit",
+          "category": "AirTravel",
+          "amount": 100,
+          "resetPeriod": "Yearly",
+          "description": "Up to $100 in statement credits each calendar year for qualifying airline incidental transactions"
+        },
+        {
+          "id": "bofa-premium-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 100,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit up to $100 every four years for Global Entry or TSA PreCheck application fee"
+        }
+      ]
+    },
+    {
+      "cardId": "us-bank-altitude-reserve",
+      "benefits": [
+        {
+          "id": "altitude-reserve-travel-dining",
+          "name": "Travel and Dining Credit",
+          "category": "GeneralTravel",
+          "amount": 325,
+          "resetPeriod": "Yearly",
+          "description": "Up to $325 in annual statement credits for eligible travel and dining purchases"
+        },
+        {
+          "id": "altitude-reserve-priority-pass",
+          "name": "Priority Pass Select Visits",
+          "category": "AirTravel",
+          "amount": -280,
+          "resetPeriod": "Yearly",
+          "usageCount": 8,
+          "description": "Complimentary Priority Pass Select membership with limited annual lounge visits"
+        },
+        {
+          "id": "altitude-reserve-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-ritz-carlton",
+      "benefits": [
+        {
+          "id": "ritz-carlton-travel-credit",
+          "name": "Annual Travel Credit",
+          "category": "GeneralTravel",
+          "amount": 300,
+          "resetPeriod": "Yearly",
+          "description": "Up to $300 in annual travel credits for airline incidental fees and eligible travel purchases"
+        },
+        {
+          "id": "ritz-carlton-free-night",
+          "name": "Annual Free Night Award",
+          "category": "Accommodation",
+          "amount": -100,
+          "resetPeriod": "Anniversary",
+          "description": "Annual Free Night Award each year after account anniversary, valid at Marriott Bonvoy properties up to 85,000 points"
+        },
+        {
+          "id": "ritz-carlton-priority-pass",
+          "name": "Priority Pass Select",
+          "category": "AirTravel",
+          "amount": -35,
+          "resetPeriod": "Never",
+          "description": "Complimentary Priority Pass Select membership"
+        },
+        {
+          "id": "ritz-carlton-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+        }
+      ]
+    },
+    {
+      "cardId": "amex-hilton-business",
+      "benefits": [
+        {
+          "id": "hilton-business-hilton-credit",
+          "name": "Hilton Credit",
+          "category": "Accommodation",
+          "amount": 60,
+          "resetPeriod": "Quarterly",
+          "description": "Up to $60 in statement credits each quarter for eligible purchases made directly with Hilton"
+        },
+        {
+          "id": "hilton-business-free-night",
+          "name": "Free Night Reward",
+          "category": "Accommodation",
+          "amount": -100,
+          "resetPeriod": "Yearly",
+          "description": "Earn a Free Night Reward after spending $15,000 on eligible purchases in a calendar year"
+        },
+        {
+          "id": "hilton-business-gold-status",
+          "name": "Hilton Honors Gold Status",
+          "category": "Accommodation",
+          "amount": 0,
+          "resetPeriod": "Never",
+          "description": "Complimentary Hilton Honors Gold status"
+        }
+      ]
+    },
+    {
+      "cardId": "amex-delta-reserve-business",
+      "benefits": [
+        {
+          "id": "delta-reserve-business-companion",
+          "name": "Domestic Companion Certificate",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Anniversary",
+          "description": "Annual companion certificate issued each year after card renewal for a domestic First Class, Delta Comfort+, or Main Cabin round-trip flight"
+        },
+        {
+          "id": "delta-reserve-business-skyclub",
+          "name": "Delta Sky Club Access",
+          "category": "AirTravel",
+          "amount": -750,
+          "resetPeriod": "Yearly",
+          "usageCount": 15,
+          "description": "15 visits per year to Delta Sky Club when flying Delta"
+        },
+        {
+          "id": "delta-reserve-business-rideshare",
+          "name": "Rideshare Credit",
+          "category": "GroundTravel",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $10 in statement credits each month after using the card on U.S. rideshare purchases with select providers"
+        },
+        {
+          "id": "delta-reserve-business-resy",
+          "name": "Resy Dining Credit",
+          "category": "Dining",
+          "amount": 20,
+          "resetPeriod": "Monthly",
+          "description": "Up to $20 in statement credits each month for eligible purchases at U.S. Resy restaurants"
+        },
+        {
+          "id": "delta-reserve-business-hotel",
+          "name": "Delta Stays Credit",
+          "category": "Accommodation",
+          "amount": 250,
+          "resetPeriod": "Yearly",
+          "description": "Up to $250 back each calendar year as a statement credit for eligible prepaid Delta Stays bookings"
+        },
+        {
+          "id": "delta-reserve-business-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+        },
+        {
+          "id": "delta-reserve-business-medallion-boost",
+          "name": "Delta Medallion Status Boost",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive $2,500 Medallion Qualification Dollars each Medallion Qualification Year"
+        }
+      ]
+    },
+    {
+      "cardId": "amex-delta-platinum-business",
+      "benefits": [
+        {
+          "id": "delta-platinum-business-companion",
+          "name": "Domestic Companion Certificate",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Anniversary",
+          "description": "Annual companion certificate issued each year after card renewal for a domestic Main Cabin round-trip flight"
+        },
+        {
+          "id": "delta-platinum-business-rideshare",
+          "name": "Rideshare Credit",
+          "category": "GroundTravel",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $10 in statement credits each month after using the card on U.S. rideshare purchases with select providers"
+        },
+        {
+          "id": "delta-platinum-business-resy",
+          "name": "Resy Dining Credit",
+          "category": "Dining",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $10 in statement credits each month for eligible purchases at U.S. Resy restaurants"
+        },
+        {
+          "id": "delta-platinum-business-hotel",
+          "name": "Delta Stays Credit",
+          "category": "Accommodation",
+          "amount": 200,
+          "resetPeriod": "Yearly",
+          "description": "Up to $200 back each calendar year as a statement credit for eligible prepaid Delta Stays bookings"
+        },
+        {
+          "id": "delta-platinum-business-global-entry",
+          "name": "Global Entry/TSA PreCheck Credit",
+          "category": "AirTravel",
+          "amount": 120,
+          "resetPeriod": "Quadrennially",
+          "description": "Statement credit for Global Entry or TSA PreCheck application fee"
+        },
+        {
+          "id": "delta-platinum-business-medallion-boost",
+          "name": "Delta Medallion Status Boost",
+          "category": "Rewards",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive $2,500 Medallion Qualification Dollars each Medallion Qualification Year"
+        }
+      ]
+    },
+    {
+      "cardId": "amex-green",
+      "benefits": [
+        {
+          "id": "amex-green-clear",
+          "name": "CLEAR+ Credit",
+          "category": "AirTravel",
+          "amount": 219,
+          "resetPeriod": "Yearly",
+          "description": "Up to $219 in statement credits per calendar year for CLEAR+ membership. Enrollment required"
+        }
+      ]
+    },
+    {
+      "cardId": "amex-blue-cash-preferred",
+      "benefits": [
+        {
+          "id": "blue-cash-preferred-disney",
+          "name": "Disney Streaming Credit",
+          "category": "Entertainment",
+          "amount": 10,
+          "resetPeriod": "Monthly",
+          "description": "Up to $10 back monthly, up to $120 annually, after spending $9.99 or more each month on an eligible Disney Bundle subscription"
+        }
+      ]
+    },
+    {
+      "cardId": "amex-marriott-business",
+      "benefits": [
+        {
+          "id": "marriott-business-free-night",
+          "name": "Annual Free Night Award",
+          "category": "Accommodation",
+          "amount": -100,
+          "resetPeriod": "Anniversary",
+          "description": "Free Night Award each year after card renewal, valid at Marriott Bonvoy properties up to 35,000 points"
+        },
+        {
+          "id": "marriott-business-elite-nights",
+          "name": "15 Elite Night Credits",
+          "category": "Accommodation",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive 15 Elite Night Credits each calendar year toward Marriott Bonvoy elite status"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-marriott-boundless",
+      "benefits": [
+        {
+          "id": "marriott-boundless-free-night",
+          "name": "Annual Free Night Award",
+          "category": "Accommodation",
+          "amount": -100,
+          "resetPeriod": "Anniversary",
+          "description": "Free Night Award each year after account anniversary, valid at Marriott Bonvoy properties up to 35,000 points"
+        },
+        {
+          "id": "marriott-boundless-elite-nights",
+          "name": "15 Elite Night Credits",
+          "category": "Accommodation",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Receive 15 Elite Night Credits each calendar year toward Marriott Bonvoy elite status"
+        }
+      ]
+    },
+    {
+      "cardId": "chase-british-airways",
+      "benefits": [
+        {
+          "id": "british-airways-reward-flight-credit",
+          "name": "Reward Flight Statement Credits",
+          "category": "AirTravel",
+          "amount": 600,
+          "resetPeriod": "Yearly",
+          "usageCount": 3,
+          "description": "Up to $600 in statement credits each calendar year toward taxes, fees, and carrier charges on British Airways reward flights to London, split across up to three eligible redemptions"
+        },
+        {
+          "id": "british-airways-travel-together-ticket",
+          "name": "Travel Together Ticket",
+          "category": "AirTravel",
+          "amount": 0,
+          "resetPeriod": "Yearly",
+          "description": "Earn a Travel Together Ticket after qualifying annual spend"
         }
       ]
     }
