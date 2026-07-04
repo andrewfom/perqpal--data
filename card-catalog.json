@@ -1,8 +1,8 @@
 
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "minAppVersion": "1.0.0",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-04",
   "cards": [
     {
       "id": "amex-platinum",
@@ -431,7 +431,7 @@
       "issuer": "U.S. Bank",
       "color": "#2F3338",
       "annualFee": 400,
-      "link": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html"
+      "link": "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits"
     },
     {
       "id": "chase-ritz-carlton",
@@ -444,7 +444,7 @@
     },
     {
       "id": "amex-hilton-business",
-      "name": "Hilton Honors American Express Business",
+      "name": "Hilton Honors Business",
       "shortname": "Hilton Business",
       "issuer": "American Express",
       "color": "#4A547C",
