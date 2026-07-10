@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "minAppVersion": "1.8.1",
+  "minimumEnabledLevel": "normal",
+  "events": [
+    {
+      "name": "app.session",
+      "level": "normal",
+      "enabled": true
+    },
+    {
+      "name": "card.added",
+      "level": "critical",
+      "enabled": true
+    },
+    {
+      "name": "card.removed",
+      "level": "normal",
+      "enabled": true
+    },
+    {
+      "name": "benefit.action",
+      "level": "critical",
+      "enabled": true
+    },
+    {
+      "name": "notification.permission.result",
+      "level": "critical",
+      "enabled": true
+    },
+    {
+      "name": "upgrade.event",
+      "level": "critical",
+      "enabled": true
+    },
+    {
+      "name": "filter.changed",
+      "level": "normal",
+      "enabled": true
+    },
+    {
+      "name": "catalog.update.event",
+      "level": "normal",
+      "enabled": true
+    },
+    {
+      "name": "add.card.search",
+      "level": "verbose",
+      "enabled": false
+    },
+    {
+      "name": "screen.viewed",
+      "level": "verbose",
+      "enabled": true
+    }
+  ]
+}
