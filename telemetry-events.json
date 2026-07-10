@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "minAppVersion": "1.8.1",
-  "minimumEnabledLevel": "verbose",
+  "minimumEnabledLevel": "normal",
   "events": [
     {
       "name": "app.session",
@@ -51,7 +51,7 @@
     {
       "name": "screen.viewed",
       "level": "verbose",
-      "enabled": true
+      "enabled": false
     }
   ]
 }
